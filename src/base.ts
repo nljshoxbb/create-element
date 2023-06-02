@@ -38,7 +38,7 @@ export default class InitFunc {
     this.scope = config.scope;
     this.projectScope = this.handleProjectScope(this.answers.projectName);
     this.exportName = this.handleExportName(this.answers.projectName);
-    this.gitInstallPath = path.join(this.installPath, "cms-template");
+    this.gitInstallPath = path.join(this.installPath, config.repoName);
   }
 
   handleProjectScope(name) {

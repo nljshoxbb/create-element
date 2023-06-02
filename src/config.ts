@@ -1,5 +1,6 @@
 export default {
   packageRegistry: "",
-  gitRepo: "",
-  scope: "",
+  gitRepo: "https://github.com/nljshoxbb/lowcode-template.git",
+  scope: "@lowcode-template",
+  repoName: "lowcode-template",
 };
